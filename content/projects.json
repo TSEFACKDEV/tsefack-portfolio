@@ -1,0 +1,259 @@
+[
+  {
+    "slug": "buyandsale",
+    "index": "01",
+    "title": "BuyAndSale",
+    "subtitle": "A national marketplace, built for real time.",
+    "year": "2025",
+    "role": "Fullstack Developer",
+    "category": "Commercial",
+    "description": "A large-scale Cameroonian marketplace for buying and selling items in real time. I built the API and the experience end to end, with secure media uploads and a data model designed to scale.",
+    "stack": [
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "Cloudinary"
+    ],
+    "href": "https://buyandsale.cm",
+    "featured": true,
+    "glyph": "B",
+    "cover": "navy",
+    "image": "/work/buyandsale.jpg",
+    "imageAlt": "BuyAndSale marketplace homepage, with a large orange hero and a grid of product categories",
+    "domain": "buyandsale.cm",
+    "highlights": [
+      "REST API with typed contracts",
+      "Prisma schema & migrations",
+      "Cloudinary media pipeline"
+    ],
+    "published": true,
+    "createdAt": "2026-10-24T10:00:00.000Z",
+    "updatedAt": "2026-10-25T09:00:00.000Z"
+  },
+  {
+    "slug": "rigo-enzo",
+    "index": "02",
+    "title": "Rigo & Enzo",
+    "subtitle": "A dealership catalogue that stays current.",
+    "year": "2025",
+    "role": "Fullstack Developer",
+    "category": "Commercial",
+    "description": "A commercial showcase and dynamic catalogue for a car dealership, giving the team a simple way to publish and manage inventory in real time without touching code.",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL",
+      "Tailwind CSS"
+    ],
+    "href": "https://rigoenzo.com",
+    "featured": true,
+    "glyph": "R",
+    "cover": "slate",
+    "image": "/work/rigoenzo.jpg",
+    "imageAlt": "Rigo & Enzo vehicle marketplace homepage, with a purple hero image of a car and a search panel",
+    "domain": "rigoenzo.com",
+    "highlights": [
+      "Real-time inventory management",
+      "Editor-friendly content model",
+      "SEO-ready catalogue pages"
+    ],
+    "published": true,
+    "createdAt": "2026-10-24T10:00:00.000Z",
+    "updatedAt": "2026-10-25T09:00:00.000Z"
+  },
+  {
+    "slug": "faucon",
+    "index": "03",
+    "title": "Faucon",
+    "subtitle": "Real-time GPS tracking, from firmware to dashboard.",
+    "year": "2026 – Present",
+    "role": "Fullstack & IoT Developer",
+    "category": "Ongoing",
+    "description": "A complete IoT tracking platform: a GPS tracker publishing over MQTT, an Express and Prisma API handling geofences, alarms and HMAC-signed commands, a real-time Next.js dashboard and an Expo mobile app.",
+    "stack": [
+      "Next.js",
+      "React Native",
+      "Express",
+      "Prisma",
+      "PostgreSQL",
+      "MQTT",
+      "Socket.IO"
+    ],
+    "repo": "https://github.com/TSEFACKDEV/faucon-api",
+    "featured": true,
+    "glyph": "F",
+    "cover": "midnight",
+    "visual": "radar",
+    "highlights": [
+      "MQTT telemetry & signed commands",
+      "Geofencing and alarm engine",
+      "Real-time web & mobile clients"
+    ],
+    "published": true,
+    "createdAt": "2026-10-24T10:00:00.000Z",
+    "updatedAt": "2026-11-13T09:20:00.000Z"
+  },
+  {
+    "slug": "locatcam",
+    "index": "04",
+    "title": "LocatCam",
+    "subtitle": "Student housing, end to end.",
+    "year": "2026",
+    "role": "Fullstack Developer",
+    "category": "Ongoing",
+    "description": "A housing platform for Cameroonian students: a .NET 10 API with JWT refresh tokens, geospatial listing search, messaging and moderation, paired with a .NET MAUI Android app with offline favourites. Containerised with Docker and covered by unit tests.",
+    "stack": [
+      "C#",
+      ".NET 10",
+      "ASP.NET Core",
+      "EF Core",
+      "PostgreSQL",
+      "Docker",
+      ".NET MAUI"
+    ],
+    "repo": "https://github.com/TSEFACKDEV/LocatCam_server",
+    "featured": true,
+    "glyph": "L",
+    "cover": "teal",
+    "visual": "mobile",
+    "images": [
+      "/work/locatcam/map.jpg",
+      "/work/locatcam/home.jpg"
+    ],
+    "highlights": [
+      "Clean architecture & EF Core",
+      "JWT access + refresh tokens",
+      "MAUI app with offline mode"
+    ],
+    "published": true,
+    "createdAt": "2026-10-24T10:00:00.000Z",
+    "updatedAt": "2026-10-25T09:00:00.000Z"
+  },
+  {
+    "slug": "ecotrack",
+    "index": "05",
+    "title": "EcoTrack",
+    "subtitle": "Routing waste collection across Douala.",
+    "year": "2024 – 2025",
+    "role": "Backend Developer",
+    "category": "Academic",
+    "description": "A tutored academic project for waste collection management and route optimisation in Douala. Complete UML analysis, then a clean MVC implementation on the MERN stack — now deployed as a live demo.",
+    "stack": [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node.js",
+      "TypeScript",
+      "UML"
+    ],
+    "href": "https://ecotrack-front.vercel.app",
+    "repo": "https://github.com/TSEFACKDEV/ECOTRACK-FRONT",
+    "featured": false,
+    "glyph": "E",
+    "cover": "forest",
+    "image": "/work/ecotrack.jpg",
+    "imageAlt": "EcoTrack homepage, with a green waste-collection hero and a report-a-dump call to action",
+    "domain": "ecotrack-front.vercel.app",
+    "highlights": [
+      "Full UML analysis & modelling",
+      "MVC architecture in TypeScript",
+      "Route optimisation logic"
+    ],
+    "published": true,
+    "createdAt": "2026-10-24T10:00:00.000Z",
+    "updatedAt": "2026-10-25T09:00:00.000Z"
+  },
+  {
+    "slug": "task",
+    "index": "06",
+    "title": "Task",
+    "subtitle": "Projects, people and deadlines in one view.",
+    "year": "2025",
+    "role": "Sole Developer",
+    "category": "Academic",
+    "description": "A project management and collaboration application with dynamic task allocation and an interactive deadline calendar. Designed, built and shipped end to end as a solo developer.",
+    "stack": [
+      "Next.js",
+      "Prisma",
+      "PostgreSQL",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "featured": false,
+    "glyph": "T",
+    "cover": "bronze",
+    "highlights": [
+      "Dynamic task assignment",
+      "Interactive deadline calendar",
+      "Server-rendered Next.js app"
+    ],
+    "published": true,
+    "createdAt": "2026-10-24T10:00:00.000Z",
+    "updatedAt": "2026-10-25T09:00:00.000Z"
+  },
+  {
+    "slug": "ids-sprachschule",
+    "index": "07",
+    "title": "IDS Sprachschule",
+    "subtitle": "The digital home of a language centre.",
+    "year": "2026",
+    "role": "Web Developer",
+    "category": "Ongoing",
+    "description": "Ongoing development of the official web application for a prominent German language centre based in Yaoundé: courses, enrolment and institutional content, with a bilingual experience.",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "href": "https://ids-sprachschule.vercel.app",
+    "repo": "https://github.com/TSEFACKDEV/ids-sprachschule",
+    "featured": false,
+    "glyph": "I",
+    "cover": "plum",
+    "image": "/work/ids.jpg",
+    "imageAlt": "IDS Sprachschule homepage, with a full-screen photograph of students and a Learn German headline",
+    "domain": "ids-sprachschule.vercel.app",
+    "highlights": [
+      "Course & enrolment flows",
+      "Bilingual content",
+      "In active development"
+    ],
+    "published": true,
+    "createdAt": "2026-10-24T10:00:00.000Z",
+    "updatedAt": "2026-10-25T09:00:00.000Z"
+  },
+  {
+    "slug": "dr-tchuiffon",
+    "index": "08",
+    "title": "Dr Tchuiffon Donald Raoul",
+    "subtitle": "Research, made accessible.",
+    "year": "2025",
+    "role": "Web Developer",
+    "category": "Commercial",
+    "description": "A bilingual academic portfolio for an NHPSD university researcher, organising courses, publications and academic resources into one accessible, quietly elegant site.",
+    "stack": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "href": "https://tchuifon-site.vercel.app",
+    "repo": "https://github.com/TSEFACKDEV/tchuifon-site",
+    "featured": false,
+    "glyph": "D",
+    "cover": "indigo",
+    "image": "/work/tchuifon.jpg",
+    "imageAlt": "Dr Tchuiffon Donald Raoul academic portfolio homepage, with a formal portrait and research introduction",
+    "domain": "tchuifon-site.vercel.app",
+    "highlights": [
+      "Bilingual structure",
+      "Research & publications",
+      "Accessibility-first layout"
+    ],
+    "published": true,
+    "createdAt": "2026-10-24T10:00:00.000Z",
+    "updatedAt": "2026-10-25T09:00:00.000Z"
+  }
+]

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#0b1f3a"/>
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="15.25" fill="none" stroke="#d8b878" stroke-opacity="0.35" stroke-width="1.5"/>
+  <text x="32" y="41" font-family="Georgia, 'Times New Roman', serif" font-size="24" letter-spacing="-1" fill="#d8b878" text-anchor="middle">TCK</text>
+  <rect x="27" y="47" width="10" height="2" rx="1" fill="#d8b878" fill-opacity="0.6"/>
+</svg>
