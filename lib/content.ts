@@ -17,7 +17,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/calvin-klein-tsefack-a30a5632b/",
   github: "https://github.com/TSEFACKDEV",
   siteUrl:
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://tsefackdev.vercel.app",
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://tsefack.online",
   availability: "Open to internships & collaborations",
   summary:
     "Final-year software engineering student (Level 5) at NHPSD and fullstack developer. I design and ship calm, resilient web and mobile products with the MERN and PERN stacks.",

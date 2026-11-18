@@ -4,7 +4,7 @@ Portfolio professionnel de **Calvin Klein Tsefack**, développeur fullstack et �
 
 La particularité du projet : un **studio d'administration** permet de publier de nouveaux projets sans toucher au code, avec stockage Git (GitHub) ou fichier local.
 
-**En ligne :** <https://tsefackdev.vercel.app> · version française : <https://tsefackdev.vercel.app/fr>
+**En ligne :** <https://tsefack.online> · version française : <https://tsefack.online/fr>
 
 ---
 
