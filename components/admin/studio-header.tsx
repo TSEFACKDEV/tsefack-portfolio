@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight, LogOut } from "lucide-react";
-import { logoutAction } from "@/app/admin/actions";
+import { logoutAction } from "@/app/(en)/admin/actions";
 import { storageMode } from "@/lib/projects";
 import { ThemeToggle } from "../theme-toggle";
 

@@ -5,7 +5,7 @@ import { useActionState, useState } from "react";
 import { useFormStatus } from "react-dom";
 import { ArrowLeft, ArrowUpRight, Check, Loader2 } from "lucide-react";
 import Link from "next/link";
-import { saveProjectAction, type ProjectState } from "@/app/admin/actions";
+import { saveProjectAction, type ProjectState } from "@/app/(en)/admin/actions";
 import type { Project } from "@/lib/content";
 import { coverPresets, coverStyles, type CoverPreset } from "@/lib/covers";
 

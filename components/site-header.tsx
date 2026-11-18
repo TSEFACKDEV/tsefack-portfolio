@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion, useScroll, useSpring } from "motion/react";
 import { ArrowUpRight, Menu, X } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { navigation, profile } from "@/lib/content";
 import { ThemeToggle } from "./theme-toggle";
@@ -118,6 +119,13 @@ export function SiteHeader() {
           </nav>
 
           <div className="flex items-center gap-2.5">
+            <Link
+              href="/fr"
+              hrefLang="fr"
+              className="hidden rounded-full border border-line px-3 py-2 text-[10px] font-semibold uppercase tracking-[0.12em] text-muted transition-colors hover:border-accent hover:text-accent sm:inline-flex"
+            >
+              FR
+            </Link>
             <ThemeToggle />
             <a
               href="#contact"

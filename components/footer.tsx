@@ -1,4 +1,4 @@
-import { ArrowUp, Mail } from "lucide-react";
+import { ArrowUp, Languages, Mail } from "lucide-react";
 import { navigation, profile } from "@/lib/content";
 import { GithubIcon, LinkedinIcon } from "./brand-icons";
 
@@ -71,6 +71,16 @@ export function Footer() {
                   >
                     <Mail className="h-3 w-3" strokeWidth={1.7} aria-hidden="true" />
                     Email
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/fr"
+                    hrefLang="fr"
+                    className="group inline-flex items-center gap-2 text-[11.5px] text-muted transition-colors hover:text-ink"
+                  >
+                    <Languages className="h-3 w-3" strokeWidth={1.7} aria-hidden="true" />
+                    Version française
                   </a>
                 </li>
               </ul>

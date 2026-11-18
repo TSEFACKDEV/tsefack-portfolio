@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 import {
   moveProjectAction,
-} from "@/app/admin/actions";
+} from "@/app/(en)/admin/actions";
 import { DeleteProjectButton } from "@/components/admin/delete-project-button";
 import { getAllProjects, storageMode } from "@/lib/projects";
 import { coverStyles } from "@/lib/covers";

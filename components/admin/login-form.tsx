@@ -3,7 +3,7 @@
 import { useActionState } from "react";
 import { useFormStatus } from "react-dom";
 import { ArrowRight, LockKeyhole } from "lucide-react";
-import { loginAction, type LoginState } from "@/app/admin/actions";
+import { loginAction, type LoginState } from "@/app/(en)/admin/actions";
 
 function SubmitButton() {
   const { pending } = useFormStatus();

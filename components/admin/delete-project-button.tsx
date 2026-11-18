@@ -1,7 +1,7 @@
 "use client";
 
 import { Trash2 } from "lucide-react";
-import { deleteProjectAction } from "@/app/admin/actions";
+import { deleteProjectAction } from "@/app/(en)/admin/actions";
 
 export function DeleteProjectButton({ slug, title }: { slug: string; title: string }) {
   return (

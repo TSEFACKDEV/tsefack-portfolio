@@ -106,6 +106,29 @@ Les captures d'écran existantes sont dans `public/work/`.
 
 > `ADMIN_PASSWORD` doit impérativement être défini en production : sans lui, la connexion est désactivée.
 
+### SEO et version française
+
+Le site est bilingue par routes distinctes, avec un `lang` correct sur chaque document :
+
+| URL | Langue | Cible |
+| --- | --- | --- |
+| `/` | anglais | portfolio principal, requêtes internationales |
+| `/fr` | français | « développeur fullstack », « ingénieur logiciel / informatique Cameroun » |
+| `/fr/developpeur-fullstack-cameroun` | français | « développeur fullstack Cameroun / Douala » |
+| `/fr/devops-cameroun` | français | « DevOps Cameroun », CI/CD, Docker, Linux |
+
+Chaque page déclare `canonical`, `hreflang` (`fr`, `en`, `x-default`) et son propre JSON-LD (`Person`, `WebPage`, `Service`, `FAQPage`, `BreadcrumbList`). Le sitemap inclut les alternates de langue.
+
+Après le premier déploiement :
+
+1. Vérifier le domaine dans **Google Search Console** (DNS ou balise HTML).
+2. Soumettre `https://votre-domaine/sitemap.xml`.
+3. Demander l'indexation de `/`, `/fr`, `/fr/developpeur-fullstack-cameroun` et `/fr/devops-cameroun`.
+4. Créer une fiche **Google Business Profile** cohérente (nom, Douala, activités, lien du site).
+5. Ajouter le site sur LinkedIn et GitHub, et obtenir quelques liens entrants (école, projets, profils professionnels).
+
+Le référencement de requêtes larges comme « informatique Cameroun » prend plusieurs semaines : contenu, indexation, signaux locaux et liens comptent autant que les balises.
+
 ### Alternative VPS
 
 Sans variables GitHub, le studio écrit directement dans `content/projects.json`. Sur un VPS (Node + disque persistant), pensez à sauvegarder ce fichier. `npm run build && npm start` suffit.
