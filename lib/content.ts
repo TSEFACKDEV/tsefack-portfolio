@@ -23,7 +23,7 @@ export const profile = {
     "Final-year software engineering student (Level 5) at NHPSD and fullstack developer. I design and ship calm, resilient web and mobile products with the MERN and PERN stacks.",
   bio: [
     "I am in my final year of software engineering at the National Higher Polytechnic School of Douala (Level 5), ranked first in my class for the 2024–2025 academic year. My work sits at the intersection of rigorous engineering and careful interface design: clean architecture underneath, quiet clarity on the surface.",
-    "I build fullstack products with TypeScript across the MERN and PERN stacks, and I work comfortably in C#/.NET — LocatCam, my student housing platform, is an ASP.NET Core API with EF Core, JWT and Docker. I am currently building Faucon, a real-time GPS tracking platform spanning firmware, API, dashboard and mobile. I am increasingly drawn to infrastructure and systems programming: Linux, CI/CD, Rust for tooling, and the Huawei enterprise ecosystem (openEuler, openGauss). In 2026 I qualified for the national phase of the Huawei ICT Competition, Computing Track.",
+    "I build fullstack products with TypeScript across the MERN and PERN stacks, and I work comfortably in C#/.NET — LocatCam, my student housing platform, is an ASP.NET Core API with EF Core, JWT and Docker. Faucon, my fleet-telemetry platform, is now live: ESP32-C3 firmware, an MQTT and Socket.IO pipeline, a real-time Next.js control tower and an Expo mobile app. With Team ARTEMIS 237 I also built NkapLingua, a browser extension that makes financial interfaces readable in Fulfulde, Ewondo and Duala. I am increasingly drawn to infrastructure and systems programming: Linux, CI/CD, Rust for tooling, and the Huawei enterprise ecosystem (openEuler, openGauss). In 2026 I qualified for the national phase of the Huawei ICT Competition, Computing Track.",
     "Outside of code, I sing in a choir, read technical literature and follow football. I care about software that respects the people using it: fast, accessible, and built to last.",
   ],
 } as const;
@@ -39,12 +39,12 @@ export const navigation = [
 export const stats = [
   { value: "1st", label: "of class, Software Engineering 3", detail: "2024 – 2025" },
   {
-    value: "74",
+    value: "77",
     label: "public repositories on GitHub",
     detail: "TypeScript · C# · Rust",
   },
   {
-    value: "10+",
+    value: "12+",
     label: "products & deployments shipped",
     detail: "Web, mobile & API",
   },
@@ -134,6 +134,15 @@ export const githubExtras: GithubExtra[] = [
 export const experience = [
   {
     year: "2026",
+    title: "Competitor — SAFINUM Innovate Challenge",
+    org: "NkapLingua · Team ARTEMIS 237",
+    type: "Competition",
+    description:
+      "Built a browser extension that translates financial interfaces into Fulfulde, Ewondo and Duala, with a strict mode that protects PIN, OTP and balance until a human-validated pack exists. Prepared with Team ARTEMIS 237 for the Yaoundé challenge, 26–28 November 2026.",
+    tags: ["Accessibility", "Web extensions", "Python", "Cameroonian languages"],
+  },
+  {
+    year: "2026",
     title: "National Phase — Huawei ICT Competition",
     org: "Huawei · Computing Track",
     type: "Distinction",
@@ -206,6 +215,7 @@ export const skills = [
       "ASP.NET Core",
       "REST APIs",
       "Prisma ORM",
+      "FastAPI",
       "Socket.IO",
       "MQTT",
     ],
@@ -228,6 +238,7 @@ export const skills = [
       "Linux (Ubuntu, OpenEuler)",
       "Docker",
       "CI/CD",
+      "GitHub Actions",
       "Git / GitHub",
       "VPS deployment",
     ],
@@ -240,6 +251,7 @@ export const skills = [
       "UML",
       "Unit testing",
       "FluentValidation",
+      "Web accessibility",
       "Technical writing",
     ],
   },
@@ -251,10 +263,10 @@ export const languages = [
 ] as const;
 
 export const currently = [
-  { label: "Building", value: "Faucon — real-time GPS tracking" },
+  { label: "Shipping", value: "Faucon — live fleet telemetry" },
+  { label: "Competing", value: "SAFINUM 2026 with NkapLingua" },
   { label: "Finishing", value: "Engineering degree, final year (Level 5)" },
   { label: "Learning", value: "Rust, .NET & distributed systems" },
-  { label: "Reading", value: "Clean architecture & system design" },
 ] as const;
 
 export const references = [
@@ -289,7 +301,8 @@ export const marqueeItems = [
   "Linux",
   "openEuler",
   "MQTT",
+  "FastAPI",
   "Tailwind CSS",
   "React Native",
-  "CI/CD",
+  "GitHub Actions",
 ] as const;

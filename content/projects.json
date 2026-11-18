@@ -68,11 +68,11 @@
     "slug": "faucon",
     "index": "03",
     "title": "Faucon",
-    "subtitle": "Real-time GPS tracking, from firmware to dashboard.",
+    "subtitle": "Fleet telemetry, from tracker to control tower.",
     "year": "2026 – Present",
     "role": "Fullstack & IoT Developer",
     "category": "Ongoing",
-    "description": "A complete IoT tracking platform: a GPS tracker publishing over MQTT, an Express and Prisma API handling geofences, alarms and HMAC-signed commands, a real-time Next.js dashboard and an Expo mobile app.",
+    "description": "A fleet-telemetry product, now live on the web. An ESP32-C3 tracker publishes over MQTT with a local journal, GPS clock and adaptive WORK / MOVE / STANDBY modes. The Express and Prisma API handles geofences, alerts, HMAC-signed commands and scoped owner API keys. A real-time Next.js control tower and an Expo mobile app complete the chain.",
     "stack": [
       "Next.js",
       "React Native",
@@ -80,21 +80,26 @@
       "Prisma",
       "PostgreSQL",
       "MQTT",
-      "Socket.IO"
+      "Socket.IO",
+      "ESP32-C3"
     ],
     "repo": "https://github.com/TSEFACKDEV/faucon-api",
     "featured": true,
     "glyph": "F",
     "cover": "midnight",
-    "visual": "radar",
     "highlights": [
-      "MQTT telemetry & signed commands",
-      "Geofencing and alarm engine",
-      "Real-time web & mobile clients"
+      "Live HTTPS control tower: live position, trip replay, geofences and alerts",
+      "ESP32-C3 firmware with local journal, GPS clock and adaptive reporting modes",
+      "Owner API with scoped, revocable keys and read-only Socket.IO stream",
+      "MQTT telemetry and HMAC-signed remote commands, end to end"
     ],
     "published": true,
     "createdAt": "2026-10-24T10:00:00.000Z",
-    "updatedAt": "2026-11-13T09:20:00.000Z"
+    "updatedAt": "2026-11-18T09:00:00.000Z",
+    "href": "https://faucon.169.58.69.36.sslip.io/",
+    "image": "/work/faucon.jpg",
+    "imageAlt": "Faucon fleet telemetry landing page with a live map preview",
+    "domain": "faucon · live"
   },
   {
     "slug": "locatcam",
@@ -133,8 +138,44 @@
     "updatedAt": "2026-10-25T09:00:00.000Z"
   },
   {
-    "slug": "ecotrack",
+    "slug": "nkaplingua",
     "index": "05",
+    "title": "NkapLingua",
+    "subtitle": "Financial accessibility, in three Cameroonian languages.",
+    "year": "2026",
+    "role": "Web & Extension Developer · Team ARTEMIS 237",
+    "category": "Ongoing",
+    "description": "A browser extension that translates digital financial interfaces into Fulfulde, Ewondo and Duala without modifying the host site and without reading sensitive fields. Strict mode keeps balance, fees, PIN and OTP in French until a human-validated pack exists, and every action can be reversed. Prepared for the SAFINUM Innovate Challenge 2026 with Team ARTEMIS 237.",
+    "stack": [
+      "JavaScript",
+      "Chrome MV3",
+      "Firefox",
+      "Python",
+      "FastAPI",
+      "NLLB",
+      "GitHub Actions"
+    ],
+    "href": "https://tsefackdev.github.io/safinum-nkaplingua/demo/",
+    "repo": "https://github.com/TSEFACKDEV/safinum-nkaplingua",
+    "featured": true,
+    "glyph": "N",
+    "cover": "forest",
+    "image": "/work/nkaplingua.jpg",
+    "imageAlt": "NkapLingua extension running over a fictional mobile-money banking interface in Fulfulde",
+    "domain": "nkaplingua · demo",
+    "highlights": [
+      "Three languages: Fulfulde, Ewondo and Duala, with human packs and explicit status",
+      "Runs in Chrome (Manifest V3) and Firefox without touching the source page",
+      "Strict mode protects PIN, OTP, balance and fees from unvalidated machine translation",
+      "188/188 checks passed on the official test site, with full restoration"
+    ],
+    "published": true,
+    "createdAt": "2026-11-18T09:00:00.000Z",
+    "updatedAt": "2026-11-18T09:00:00.000Z"
+  },
+  {
+    "slug": "ecotrack",
+    "index": "06",
     "title": "EcoTrack",
     "subtitle": "Routing waste collection across Douala.",
     "year": "2024 – 2025",
@@ -168,7 +209,7 @@
   },
   {
     "slug": "task",
-    "index": "06",
+    "index": "07",
     "title": "Task",
     "subtitle": "Projects, people and deadlines in one view.",
     "year": "2025",
@@ -196,7 +237,7 @@
   },
   {
     "slug": "ids-sprachschule",
-    "index": "07",
+    "index": "08",
     "title": "IDS Sprachschule",
     "subtitle": "The digital home of a language centre.",
     "year": "2026",
@@ -227,7 +268,7 @@
   },
   {
     "slug": "dr-tchuiffon",
-    "index": "08",
+    "index": "09",
     "title": "Dr Tchuiffon Donald Raoul",
     "subtitle": "Research, made accessible.",
     "year": "2025",
@@ -255,5 +296,42 @@
     "published": true,
     "createdAt": "2026-10-24T10:00:00.000Z",
     "updatedAt": "2026-10-25T09:00:00.000Z"
+  },
+  {
+    "slug": "gestactes",
+    "index": "10",
+    "title": "GestActes",
+    "subtitle": "Administrative acts, traceable from request to signature.",
+    "year": "2026",
+    "role": "Fullstack Developer",
+    "category": "Academic",
+    "description": "A civic workflow where a citizen requests an administrative act, an agent instructs it, a validator signs it, and the system archives it with a public verification page. Act contents live in a private GitHub repository: every change leaves a commit, every validation goes through a pull request, and every signed act carries a SHA-256 fingerprint.",
+    "stack": [
+      "React",
+      "FastAPI",
+      "Python",
+      "PostgreSQL",
+      "GitHub API",
+      "SMTP",
+      "Vitest",
+      "pytest",
+      "GitHub Actions"
+    ],
+    "repo": "https://github.com/TSEFACKDEV/gestactes",
+    "featured": false,
+    "glyph": "G",
+    "cover": "slate",
+    "image": "/work/gestactes.jpg",
+    "imageAlt": "GestActes public homepage for administrative acts in Douala",
+    "domain": "gestactes · démo",
+    "highlights": [
+      "Role-based spaces for citizens, agents, validators and administrators",
+      "Git-backed audit trail: commits, pull requests and SHA-256 signatures",
+      "Public verification by reference number or QR code",
+      "pytest and Vitest suites wired into GitHub Actions"
+    ],
+    "published": true,
+    "createdAt": "2026-11-18T09:00:00.000Z",
+    "updatedAt": "2026-11-18T09:00:00.000Z"
   }
 ]

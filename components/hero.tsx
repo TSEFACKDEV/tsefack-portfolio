@@ -137,7 +137,7 @@ export function Hero() {
                   strokeWidth={1.7}
                   aria-hidden="true"
                 />
-                Building
+                Live
                 <span className="font-medium text-ink transition-colors group-hover:text-accent">
                   Faucon
                 </span>

@@ -56,6 +56,8 @@ export const metadata: Metadata = {
     "ASP.NET Core",
     "Rust",
     "MQTT",
+    "Faucon",
+    "NkapLingua",
     "React Native",
     "NHPSD",
     "Huawei ICT Competition",
