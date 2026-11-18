@@ -103,6 +103,7 @@ Les captures d'écran existantes sont dans `public/work/`.
 | `GITHUB_TOKEN` | recommandé | Publication persistante |
 | `GITHUB_REPO` | recommandé | `owner/repo` |
 | `GITHUB_BRANCH` | non | `main` par défaut |
+| `GOOGLE_SITE_VERIFICATION` | non | Jeton de vérification Search Console (méthode balise meta) |
 
 4. Déployez, puis connectez-vous sur `/admin`.
 

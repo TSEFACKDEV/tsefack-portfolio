@@ -365,7 +365,7 @@ export default function FrHomePage() {
         <div className="shell">
           <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
             <Reveal>
-              <span className="label text-accent">04</span>
+              <span className="label text-accent">Contexte</span>
               <h2 className="mt-5 font-serif text-[clamp(2.2rem,4.4vw,3.6rem)] leading-[1.02] tracking-[-0.015em] text-ink">
                 L&apos;informatique au Cameroun, <span className="italic text-accent">vue du terrain</span>.
               </h2>
@@ -397,10 +397,11 @@ export default function FrHomePage() {
                 Les besoins les plus visibles concernent le développement web et
                 mobile, les API de paiement mobile, la gestion des données, la
                 cybersécurité et l&apos;exploitation d&apos;infrastructures. Les
-                entreprises cherchent des profils capables de couvrir plusieurs
-                couches : une interface claire, un backend fiable, un déploiement
-                automatisé. C&apos;est précisément le rôle d&apos;un développeur
-                fullstack, et c&apos;est le positionnement que j&apos;ai choisi.
+                entreprises cherchent des profils d&apos;ingénieur informatique
+                capables de couvrir plusieurs couches : une interface claire, un
+                backend fiable, un déploiement automatisé. C&apos;est précisément le
+                rôle d&apos;un développeur fullstack, et c&apos;est le positionnement
+                que j&apos;ai choisi comme ingénieur logiciel.
               </p>
               <p>
                 Travailler depuis Douala n&apos;est plus une limite. Avec Git, GitHub
@@ -433,7 +434,7 @@ export default function FrHomePage() {
       <section id="faq" className="border-y border-line bg-bg-soft/40 py-24 sm:py-28">
         <div className="shell">
           <SectionHeading
-            index="05"
+            index="04"
             eyebrow="Questions fréquentes"
             title={
               <>
