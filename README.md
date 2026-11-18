@@ -61,7 +61,7 @@ Sur un hébergement serverless (Vercel) **sans** configuration GitHub, les écri
 
 ### Configuration GitHub (recommandée)
 
-1. Créez un dépôt GitHub pour ce portfolio (par exemple `TSEFACKDEV/portfolio`) et poussez le code.
+1. Créez un dépôt GitHub pour ce portfolio (par exemple `TSEFACKDEV/tsefack-portfolio`) et poussez le code.
 2. Créez un **fine-grained personal access token** GitHub :
    - Repository access : le dépôt du portfolio ;
    - Permissions : **Contents — Read and write**.
@@ -69,7 +69,7 @@ Sur un hébergement serverless (Vercel) **sans** configuration GitHub, les écri
 
 ```bash
 GITHUB_TOKEN=github_pat_...
-GITHUB_REPO=TSEFACKDEV/portfolio
+GITHUB_REPO=TSEFACKDEV/tsefack-portfolio
 GITHUB_BRANCH=main
 ```
 
